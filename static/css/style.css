@@ -1,0 +1,55 @@
+/* 
+
+Created by James Eggers on the 30th of October 2009. 
+
+This file is open-source, you are free to edit it to your liking, 
+but please leave a reference to me in the plugin. 
+
+*/ 
+
+/* %Portfolio% */
+#slideshow
+{
+  margin:0 auto;
+  width:600px;
+  height:363px;
+}
+
+#slidesContainer {
+  margin:0 auto;
+  width:480px;
+  height:363px;
+  left: 10px;
+  overflow:auto; 
+  position:relative;
+}
+
+#slidesContainer .slide {
+  margin:0 auto;
+  width:480px; 
+  height:363px;
+}
+
+.control {
+  display:block;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+  width: 60px;
+  height: 363px;
+}
+
+#leftControl { 
+  top: 130px;
+  left:110px;
+  background:transparent url('http://localhost/~jameseggers/wp_theme_test/wp-content/themes/Linden Landscapes/static/images/control_left.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#rightControl { 
+  top: 130px;
+  right:90px;
+  background:transparent url('http://localhost/~jameseggers/wp_theme_test/wp-content/themes/Linden Landscapes/static/images/control_right.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
